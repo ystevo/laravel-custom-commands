@@ -1,7 +1,7 @@
 # Laravel custom commands
 
-<h4>A laravel package to create and use custom commands for artisan laravel. This package was created to share and use custom commands if you have a lot of projects and dont want 
-to generate a custom command to each off them</h4>
+> A laravel package to create and use custom commands for artisan laravel. This package was created to share and use custom commands if you have a lot of projects and dont want 
+to generate a custom command to each off them
 
 ## Requirements
 

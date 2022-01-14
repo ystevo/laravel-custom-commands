@@ -27,25 +27,28 @@ LaravelCustomCommands::LaravelCustomCommandsServiceProvider::class
 
 Then run the following artisan command
 
-`php artisan vendor-publish --tag=custom-commands-config`
+```
+php artisan vendor-publish --tag=custom-commands-config
+```
 
 and
 
-`php artisan vendor-publish --tag=custom-commands`
-
+```
+php artisan vendor-publish --tag=custom-commands
+```
 
 ### Custom commands currently supported
 
 Currently this package supports the following command:
 
-`php artisan run`
+```php artisan run```
 
 This command run a development serve using custom port without using `--port` alias. This can be used when you work with a lot of laravel packages and don't want to remember anytime the port 
 that you commonly use.
 
 To use this command, just set a default port on `.env` file:
 
-`CUSTOM_COMMANDS_DEFAULT_PORT=8660`
+```CUSTOM_COMMANDS_DEFAULT_PORT=8660```
 
 
 More commands can be added on the future. Feel free to contribute!!

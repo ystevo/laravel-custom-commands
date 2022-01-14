@@ -22,7 +22,7 @@ composer require ystevo/laravel-custom-commands
 First of all, you have to add `LaravelCustomCommandsServiceProvider` in your `app/config/app.php` in `Providers` section
 
 ```php
-LaravelCustomCommands::LaravelCustomCommandsServiceProvider::class
+LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
 ```
 
 Then run the following artisan command

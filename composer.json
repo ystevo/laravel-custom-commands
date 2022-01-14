@@ -1,0 +1,17 @@
+{
+    "name": "ystevo/laravel-custom-commands",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ystevo\\LaravelCustomCommands\\": "vendor/ystevo/laravel-custom-commands/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dayanne Garcia",
+            "email": "48609156+DayGarcia@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

@@ -37,6 +37,12 @@ Then add the `LaravelCustomCommandsServiceProvider` in your `app/config/app.php`
 LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
 ```
 
+Don't forget to rebuild the config cache:
+
+```
+php artisan config:cache
+```
+
 Then run the following artisan command
 
 ```

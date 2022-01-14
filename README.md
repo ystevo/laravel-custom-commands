@@ -24,6 +24,17 @@ First of all, you have to add `LaravelCustomCommandsServiceProvider` in your `ap
 ```php
 LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
 ```
+So, add this line in your `composer.json` in `psr-4` section
+
+```json
+"LaravelCustomCommands\\": "vendor/ystevo/laravel-custom-commands/src/"
+```
+
+and run:
+
+```
+composer dump-autoload
+```
 
 Then run the following artisan command
 

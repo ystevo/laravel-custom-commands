@@ -28,13 +28,13 @@ LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
 Then run the following artisan command
 
 ```
-php artisan vendor-publish --tag=custom-commands-config
+php artisan vendor:publish --tag=custom-commands-config
 ```
 
 and
 
 ```
-php artisan vendor-publish --tag=custom-commands
+php artisan vendor:publish --tag=custom-commands
 ```
 
 ### Custom commands currently supported

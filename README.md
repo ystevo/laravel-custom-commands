@@ -19,12 +19,7 @@ composer require ystevo/laravel-custom-commands
 
 ## Setup
 
-First of all, you have to add `LaravelCustomCommandsServiceProvider` in your `app/config/app.php` in `Providers` section
-
-```php
-LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
-```
-So, add this line in your `composer.json` in `psr-4` section
+First of all, you have to add this line in your `composer.json` in `psr-4` section
 
 ```json
 "LaravelCustomCommands\\": "vendor/ystevo/laravel-custom-commands/src/"
@@ -34,6 +29,12 @@ and run:
 
 ```
 composer dump-autoload
+```
+
+Then add the `LaravelCustomCommandsServiceProvider` in your `app/config/app.php` in `Providers` section
+
+```php
+LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
 ```
 
 Then run the following artisan command

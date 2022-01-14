@@ -61,7 +61,7 @@ Currently this package supports the following command:
 
 - Run development server
 
-This command run a development serve using custom port without using `--port` alias. This can be used when you work with a lot of laravel packages and don't want to remember anytime the port 
+This command run a development serve using custom port without using `--port` alias. This can be used when you work with a lot of laravel projects and don't want to remember anytime the port 
 that you commonly use.
 
 To use this command, just set a default port on `.env` file:

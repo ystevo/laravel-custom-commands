@@ -1,10 +1,11 @@
 {
     "name": "ystevo/laravel-custom-commands",
+    "description": "A laravel package to create and use custom commands for artisan laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ystevo\\LaravelCustomCommands\\": "vendor/ystevo/laravel-custom-commands/src/"
+            "LaravelCustomCommands\\": "vendor/ystevo/laravel-custom-commands/src/"
         }
     },
     "authors": [

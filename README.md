@@ -31,10 +31,10 @@ and run:
 composer dump-autoload
 ```
 
-Then add the `LaravelCustomCommandsServiceProvider` in your `app/config/app.php` in `Providers` section
+Then add the `LaravelCustomCommandsServiceProvider` in your `config/app.php` in `Providers` section
 
 ```php
-LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class
+LaravelCustomCommands\LaravelCustomCommandsServiceProvider::class,
 ```
 
 Don't forget to rebuild the config cache:
